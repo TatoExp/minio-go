@@ -262,7 +262,7 @@ func parseTime(t string, formats ...string) (time.Time, error) {
 }
 
 func parseRFC7231Time(lastModified string) (time.Time, error) {
-	return parseTime(lastModified, rfc822TimeFormat, rfc822TimeFormatSingleDigitDay, rfc822TimeFormatSingleDigitDayTwoDigitYear)
+	return parseTime("Sun, 2 Jan 2000 20:34:56 GMT", rfc822TimeFormat, rfc822TimeFormatSingleDigitDay, rfc822TimeFormatSingleDigitDayTwoDigitYear)
 }
 
 // ToObjectInfo converts http header values into ObjectInfo type,
