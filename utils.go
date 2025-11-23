@@ -40,9 +40,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/TatoExp/minio-go/pkg/s3utils"
+	"github.com/TatoExp/minio-go/pkg/tags"
 	md5simd "github.com/minio/md5-simd"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/tags"
 )
 
 func trimEtag(etag string) string {

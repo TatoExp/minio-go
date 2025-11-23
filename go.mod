@@ -1,4 +1,4 @@
-module github.com/minio/minio-go/v7
+module github.com/TatoExp/minio-go
 
 go 1.23.0
 

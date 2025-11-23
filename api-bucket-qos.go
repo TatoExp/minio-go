@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/TatoExp/minio-go/pkg/s3utils"
 	"gopkg.in/yaml.v3"
 )
 

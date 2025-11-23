@@ -26,9 +26,9 @@ import (
 	"io"
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/encrypt"
+	"github.com/TatoExp/minio-go"
+	"github.com/TatoExp/minio-go/pkg/credentials"
+	"github.com/TatoExp/minio-go/pkg/encrypt"
 )
 
 func main() {

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio-go/v7/pkg/encrypt"
+	"github.com/TatoExp/minio-go/pkg/encrypt"
 )
 
 func TestPostPolicySetExpires(t *testing.T) {

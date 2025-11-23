@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/cors"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/TatoExp/minio-go"
+	"github.com/TatoExp/minio-go/pkg/cors"
+	"github.com/TatoExp/minio-go/pkg/credentials"
 )
 
 func main() {

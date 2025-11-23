@@ -24,9 +24,9 @@ import (
 	"context"
 	"log"
 
-	minio "github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/tags"
+	minio "github.com/TatoExp/minio-go"
+	"github.com/TatoExp/minio-go/pkg/credentials"
+	"github.com/TatoExp/minio-go/pkg/tags"
 )
 
 func main() {

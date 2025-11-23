@@ -40,11 +40,11 @@ import (
 
 	"github.com/dustin/go-humanize"
 	md5simd "github.com/minio/md5-simd"
-	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio-go/v7/pkg/kvcache"
-	"github.com/minio/minio-go/v7/pkg/s3utils"
-	"github.com/minio/minio-go/v7/pkg/signer"
-	"github.com/minio/minio-go/v7/pkg/singleflight"
+	"github.com/TatoExp/minio-go/pkg/credentials"
+	"github.com/TatoExp/minio-go/pkg/kvcache"
+	"github.com/TatoExp/minio-go/pkg/s3utils"
+	"github.com/TatoExp/minio-go/pkg/signer"
+	"github.com/TatoExp/minio-go/pkg/singleflight"
 	"golang.org/x/net/publicsuffix"
 )
 

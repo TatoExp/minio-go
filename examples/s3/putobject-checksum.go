@@ -28,8 +28,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/TatoExp/minio-go"
+	"github.com/TatoExp/minio-go/pkg/credentials"
 )
 
 func main() {
